@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+   
+}
+/* header styles */
+header {
+    background-color:lightseagreen;
+    padding: 0 100px 50px 100px;
+       display: flex;  
+       justify-content: space-between;
+       background-image: url("images/photo1.jpg");
+ }
+.hosting {
+       font-size: 20px;
+       color: aliceblue;
+       padding-top: 50px;
+       }
+.header-title1 {
+    color: gold;
+    font-size: 50px;
+   margin-bottom: 0;}
+.header-title2 {
+    color: gold;
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.ulflex {
+    display: flex;
+}
+.ul1 {
+    /* float: left; */
+    color: aliceblue;
+    padding-left: 20px;
+    line-height: 2;
+    list-style-image: url("check.png");
+     }
+.ul2 {
+    /* float: left; */
+    color: aliceblue;
+    line-height: 2;
+    list-style-image: url("check.png");
+}
+.price {
+    margin-top: 130px;
+    font-size: 20px;
+    text-align: right;
+   width: 250px ;
+   margin-left: 50px;
+   color: aliceblue;
+   line-height: 1;
+ }
+ .start {
+     margin-bottom: 0;
+     padding-top: 10px;
+ }
+ .start-cost {
+     margin-top: 0;
+     margin-bottom: 30px;
+ }
+.cost {
+    font-size: 110px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+   
+    }
+.button1 {
+   width: fit-content;
+   height: 60px;
+   background-color: gold;
+   border: none;
+   color: black;
+   font-size: 25px;
+   padding: 0 20px;
+   margin-top: 30px;
+}

@@ -1,0 +1,70 @@
+.types {
+    background-color: rgb(247, 244, 244);
+    padding-top: 30px;
+}
+.tof {
+display: flex;
+margin: 0 100px;
+justify-content: space-between;
+}
+
+.hostsec {
+  box-shadow: 10px 10px 5px rgb(170, 168, 168);
+  background-color: white;
+}
+.rsdiv {
+    color: lightseagreen;
+    background-color: gold;
+    padding: 10px 0 20px 20px;
+    line-height: 0.5;
+   }
+.rs {
+    color: black;
+    margin-bottom: 30px;
+}
+.prs {
+    font-size: 40px;
+}
+.hostul {
+    line-height: 1.6;
+    list-style: none;
+    padding: 0 20px;
+}
+.rsbutton {
+    color: aliceblue;
+    background-color: lightseagreen;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 220px;
+    height: 50px;
+}
+.vhostdiv {
+    background-color: lightseagreen;
+    padding: 10px 0 20px 20px;
+    line-height: 0.5;
+    color: white;
+}
+.vhost {
+   margin-bottom: 30px;
+}
+.pvhost {
+    font-size: 40px;
+    color: gold;
+}
+.dhdiv {
+    background-color: rgb(241, 11, 11);
+    padding: 10px 0 20px 20px;
+    line-height: 0.5;
+    color: white;
+}
+.dh {
+    margin-bottom: 30px;
+}
+.pdh {
+font-size: 40px;
+color: gold;
+}
+.svg {
+    float: right;
+  }
