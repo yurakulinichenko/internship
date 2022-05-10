@@ -1,0 +1,20 @@
+.fourthsection {
+    padding: 50px 100px;
+    background-color: rgb(247, 244, 244) ;
+    display: flex;
+    justify-content: space-between;   
+}
+ .fourthsec {
+     margin-right: 20px;
+ }
+.fourthicon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.fourthheading {
+    color: lightseagreen;
+}
