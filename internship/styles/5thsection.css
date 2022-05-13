@@ -1,0 +1,31 @@
+.fifthsec {
+    background-color: lightseagreen;
+    padding: 50px 100px;
+   }
+.img5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 200px;
+}
+
+.poe {
+    display: flex;
+   }
+
+.empquot {
+    display: flex;
+    color: aliceblue;
+    line-height: 2;
+    font-size: large;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.lor {
+    display: flex;
+    color: yellow;
+    margin-top: 20px;
+  }
+  .lorp {
+      margin-right: 278px;
+  }
