@@ -1,0 +1,19 @@
+.img5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-right: 200px;
+}
+
+.empquot {
+  background-color: lightseagreen;
+  padding: 50px 100px;
+  display: flex;
+  color: aliceblue;
+  line-height: 2;
+  font-size: large;
+  font-weight: bold;
+}
+.lorp {
+  color: yellow;
+}
