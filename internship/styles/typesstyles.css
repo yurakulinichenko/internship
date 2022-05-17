@@ -11,6 +11,7 @@ justify-content: space-between;
 .hostsec {
   box-shadow: 10px 10px 5px rgb(170, 168, 168);
   background-color: white;
+  padding-bottom: 30px;
 }
 .rsdiv {
     color: lightseagreen;
@@ -38,7 +39,7 @@ justify-content: space-between;
     margin-left: 20px;
     width: 220px;
     height: 50px;
-}
+   }
 .vhostdiv {
     background-color: lightseagreen;
     padding: 10px 0 20px 20px;
@@ -67,4 +68,12 @@ color: gold;
 }
 .svg {
     float: right;
+    padding-top: 20px;
+  }
+  .video {
+      display: flex;
+      margin: 40px 100px;
+  }
+  .videotxt {
+      margin-left: 30px;
   }

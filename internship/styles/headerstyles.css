@@ -4,14 +4,6 @@ body {
 }
 /* header styles */
 header {
-<<<<<<< Updated upstream
-    background-color:lightseagreen;
-    padding: 0 100px 50px 100px;
-       display: flex;  
-       justify-content: space-between;
-       background-image: url("images/photo1.jpg");
- }
-=======
   background-color: lightseagreen;
   padding: 0 100px 50px 100px;
   display: flex;
@@ -20,7 +12,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
->>>>>>> Stashed changes
+
 .hosting {
   font-size: 20px;
   color: aliceblue;
@@ -41,31 +33,15 @@ header {
   display: flex;
 }
 .ul1 {
-<<<<<<< Updated upstream
-    /* float: left; */
-    color: aliceblue;
-    padding-left: 20px;
-    line-height: 2;
-    list-style-image: url("check.png");
-     }
-.ul2 {
-    /* float: left; */
-    color: aliceblue;
-    line-height: 2;
-    list-style-image: url("check.png");
-=======
-  /* float: left; */
   color: aliceblue;
   padding-left: 20px;
   line-height: 2;
   list-style-image: url('../check.png');
 }
 .ul2 {
-  /* float: left; */
   color: aliceblue;
   line-height: 2;
   list-style-image: url('../check.png');
->>>>>>> Stashed changes
 }
 .price {
   margin-top: 130px;
