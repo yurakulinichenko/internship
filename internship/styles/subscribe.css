@@ -1,0 +1,25 @@
+.subscribe-sec {
+  background-color: yellow;
+  margin-top: 0;
+  padding: 30px 100px;
+}
+.sub-label {
+  font-size: x-large;
+  margin-right: 20px;
+}
+
+.input {
+  width: 700px;
+  height: 40px;
+  border: none;
+}
+.subscribe {
+  width: 100px;
+  height: 40px;
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+}
+.subscribe-text {
+  color: lightseagreen;
+}
