@@ -1,0 +1,36 @@
+.footer {
+  background-color: lightseagreen;
+  margin-top: 0;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-heading {
+  color: white;
+}
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+.footer-link {
+  color: yellow;
+
+  text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+  text-decoration: underline;
+}
+.address {
+  color: white;
+  font-style: normal;
+}
+.footer-tel {
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+}
+.footer-copy {
+  color: white;
+}
