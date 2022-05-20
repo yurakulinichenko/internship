@@ -2,7 +2,6 @@
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  margin-right: 200px;
 }
 
 .empquot {
@@ -13,7 +12,12 @@
   line-height: 2;
   font-size: large;
   font-weight: bold;
+  justify-content: space-between;
 }
 .lorp {
   color: yellow;
+}
+.quot-text {
+  padding-right: 50px;
+  text-align: justify;
 }
