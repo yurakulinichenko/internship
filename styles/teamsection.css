@@ -1,23 +1,23 @@
-.img5 {
+.team-img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
 
-.empquot {
-  background-color: lightseagreen;
+.team {
+  background-color: var(--main-background-color);
   padding: 50px 100px;
   display: flex;
-  color: aliceblue;
+  color: rgb(240, 248, 255);
   line-height: 2;
-  font-size: large;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   justify-content: space-between;
 }
-.lorp {
-  color: yellow;
+.team-mate {
+  color: rgb(255, 255, 0);
 }
-.quot-text {
+.team-text {
   padding-right: 50px;
   text-align: justify;
 }

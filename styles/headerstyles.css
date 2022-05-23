@@ -1,8 +1,12 @@
+:root {
+  --main-background-color: rgb(32, 178, 170);
+  --button-color: rgb(32, 178, 170);
+  --accent: rgb(32, 178, 170);
+}
+
 body {
   margin: 0;
   font-family: "Roboto", Arial, sans-serif;
-  max-width: 1920px;
-  min-width: 320px;
 }
 
 @media (max-width: 992px) {
@@ -13,26 +17,26 @@ body {
   header {
     flex-direction: column;
   }
-  .tof {
+  .types-hosting {
     flex-direction: column;
   }
   .video {
     flex-direction: column;
   }
-  .trd {
+  .get-started {
     flex-direction: column;
   }
-  .fourthsection {
+  .about-us {
     flex-direction: column;
   }
-  .empquot {
+  .team {
     flex-direction: column;
   }
   .footer {
     flex-direction: column;
   }
-  .sixsec {
-    height: 950px;
+  .activity {
+    height: 900px;
   }
 }
 @media (max-width: 768px) {
@@ -43,7 +47,7 @@ body {
 
 /* header styles */
 header {
-  background-color: lightseagreen;
+  background-color: var(--main-background-color);
   padding: 0 100px 50px 100px;
   display: flex;
   justify-content: space-between;
@@ -54,40 +58,36 @@ header {
 
 .hosting {
   font-size: 20px;
-  color: aliceblue;
+  color: rgb(240, 248, 255);
   padding-top: 50px;
 }
 .header-title1 {
-  color: gold;
+  color: rgb(255, 215, 0);
   font-size: 50px;
   margin-bottom: 0;
 }
 .header-title2 {
-  color: gold;
+  color: rgb(255, 215, 0);
   font-size: 30px;
   padding-top: 0;
   margin-top: 0;
 }
-.ulflex {
+.header-list {
   display: flex;
 }
-.ul1 {
-  color: aliceblue;
+.header-list-item {
+  color: rgb(240, 248, 255);
   padding-left: 20px;
   line-height: 2;
   list-style-image: url("../check.png");
 }
-.ul2 {
-  color: aliceblue;
-  line-height: 2;
-  list-style-image: url("../check.png");
-}
+
 .price {
   margin-top: 130px;
   font-size: 20px;
   text-align: right;
 
-  color: aliceblue;
+  color: rgb(240, 248, 255);
   line-height: 1;
 }
 .start {
@@ -104,11 +104,11 @@ header {
   margin-bottom: 0;
   padding-top: 0;
 }
-.button1 {
+.header-btn {
   height: 60px;
-  background-color: gold;
+  background-color: rgb(255, 215, 0);
   border: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 25px;
   padding: 0 50px;
   margin-top: 30px;

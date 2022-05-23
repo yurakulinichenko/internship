@@ -2,71 +2,71 @@
   background-color: rgb(247, 244, 244);
   padding-top: 30px;
 }
-.tof {
+.types-hosting {
   display: flex;
   margin: 0 100px;
   justify-content: space-between;
 }
 
-.hostsec {
+.types-hosting-section {
   box-shadow: 10px 10px 5px rgb(170, 168, 168);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding-bottom: 30px;
 }
-.rsdiv {
+.reseller {
   color: lightseagreen;
-  background-color: gold;
+  background-color: rgb(255, 215, 0);
   padding: 10px 0 20px 20px;
   line-height: 0.5;
 }
-.rs {
-  color: black;
+.reseller-title {
+  color: rgb(0, 0, 0);
   margin-bottom: 30px;
 }
-.prs {
+.reseller-price {
   font-size: 40px;
 }
-.hostul {
+.types-hosting-list {
   line-height: 1.6;
   list-style: none;
   padding: 0 20px;
 }
-.rsbutton {
-  color: aliceblue;
-  background-color: lightseagreen;
+.types-hosting-btn {
+  color: rgb(240, 248, 255);
+  background-color: var(--button-color);
   border: none;
   font-size: 20px;
   margin-left: 20px;
   padding: 0 35px;
   height: 50px;
 }
-.vhostdiv {
-  background-color: lightseagreen;
+.vps {
+  background-color: var(--main-background-color);
   padding: 10px 0 20px 20px;
   line-height: 0.5;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-.vhost {
+.vps-title {
   margin-bottom: 30px;
 }
-.pvhost {
+.vps-span {
   font-size: 40px;
-  color: gold;
+  color: rgb(255, 215, 0);
 }
-.dhdiv {
+.dedicated {
   background-color: rgb(241, 11, 11);
   padding: 10px 0 20px 20px;
   line-height: 0.5;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-.dh {
+.dedicated-title {
   margin-bottom: 30px;
 }
-.pdh {
+.dedicated-span {
   font-size: 40px;
-  color: gold;
+  color: rgb(255, 215, 0);
 }
-.svg {
+.dedicated-svg {
   float: right;
   padding-top: 20px;
 }

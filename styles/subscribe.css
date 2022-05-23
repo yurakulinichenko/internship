@@ -1,10 +1,10 @@
 .subscribe-sec {
-  background-color: yellow;
+  background-color: rgb(255, 255, 0);
   margin-top: 0;
   padding: 30px 100px;
 }
 .sub-label {
-  font-size: x-large;
+  font-size: 26px;
   margin-right: 20px;
 }
 
@@ -13,14 +13,14 @@
   height: 40px;
   border: none;
 }
-.subscribe {
+.subscribe-btn {
   width: 15%;
-  min-width: max-content;
+  min-width: 80px;
   height: 40px;
-  background-color: lightseagreen;
+  background-color: var(--button-color);
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .subscribe-text {
-  color: lightseagreen;
+  color: var(--accent);
 }

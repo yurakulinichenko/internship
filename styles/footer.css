@@ -1,12 +1,12 @@
 .footer {
-  background-color: lightseagreen;
+  background-color: var(--main-background-color);
   margin-top: 0;
   padding: 30px 100px;
   display: flex;
   justify-content: space-between;
 }
 .footer-heading {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .footer-list {
   list-style: none;
@@ -14,7 +14,7 @@
   line-height: 2;
 }
 .footer-link {
-  color: yellow;
+  color: rgb(255, 255, 0);
 
   text-decoration: none;
 }
@@ -23,14 +23,14 @@
   text-decoration: underline;
 }
 .address {
-  color: white;
+  color: rgb(255, 255, 255);
   font-style: normal;
 }
 .footer-tel {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-style: normal;
 }
 .footer-copy {
-  color: white;
+  color: rgb(255, 255, 255);
 }
