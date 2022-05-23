@@ -31,6 +31,9 @@ body {
   .footer {
     flex-direction: column;
   }
+  .sixsec {
+    height: 950px;
+  }
 }
 @media (max-width: 768px) {
   body {

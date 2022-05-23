@@ -1,7 +1,7 @@
 .sixsec {
   background-color: rgb(247, 244, 244);
   margin-top: 0;
-  height: 800px;
+  height: 820px;
 }
 
 #sixth {
@@ -10,6 +10,7 @@
   background-color: rgb(247, 244, 244);
 }
 .but {
+  display: flex;
   position: relative;
   margin-left: 100px;
   list-style-type: none;
@@ -51,3 +52,18 @@
 .sixdiv h3 {
   color: lightseagreen;
 }
+@media (max-width: 768px) {
+  .sixsec {
+    height: 960px;
+  }
+}
+@media (max-width: 550px) {
+  .sixsec {
+    height: 1050px;
+  }
+}
+/* @media (max-width: 220px) {
+    .sixsec {
+      height: 1250px;
+    }
+  } */
