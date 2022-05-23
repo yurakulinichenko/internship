@@ -9,12 +9,13 @@
 }
 
 .input {
-  width: 700px;
+  width: 60%;
   height: 40px;
   border: none;
 }
 .subscribe {
-  width: 100px;
+  width: 15%;
+  min-width: max-content;
   height: 40px;
   background-color: lightseagreen;
   border: none;
