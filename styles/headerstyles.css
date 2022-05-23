@@ -28,8 +28,7 @@ body {
   .empquot {
     flex-direction: column;
   }
-  .but {
-    display: flex;
+  .footer {
     flex-direction: column;
   }
 }
