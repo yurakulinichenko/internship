@@ -8,7 +8,7 @@
 .activity-list {
   display: flex;
   position: relative;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .activity-btn {
@@ -18,7 +18,7 @@
   border: none;
   margin-bottom: 10px;
   color: rgb(240, 248, 255);
-  font-size: large;
+  font-size: 20px;
 }
 
 .activity-btn:hover {
@@ -46,6 +46,9 @@
 .activity-text-subsection h3 {
   color: var(--accent);
 }
+.activity-text-subsection {
+  padding-right: 20px;
+}
 @media (max-width: 768px) {
   .activity {
     height: 920px;
@@ -54,5 +57,8 @@
 @media (max-width: 550px) {
   .activity {
     height: 1000px;
+  }
+  .activity-text-section {
+    flex-direction: column;
   }
 }

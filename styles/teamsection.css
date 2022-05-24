@@ -6,7 +6,7 @@
 
 .team {
   background-color: var(--main-background-color);
-  padding: 50px 100px;
+  padding: 50px 50px;
   display: flex;
   color: rgb(240, 248, 255);
   line-height: 2;

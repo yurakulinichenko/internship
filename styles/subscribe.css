@@ -1,7 +1,7 @@
 .subscribe-sec {
   background-color: rgb(255, 255, 0);
   margin-top: 0;
-  padding: 30px 100px;
+  padding: 30px 50px;
 }
 .sub-label {
   font-size: 26px;
@@ -15,7 +15,7 @@
 }
 .subscribe-btn {
   width: 15%;
-  min-width: 80px;
+  min-width: 100px;
   height: 40px;
   background-color: var(--button-color);
   border: none;
@@ -23,4 +23,12 @@
 }
 .subscribe-text {
   color: var(--accent);
+  font-size: 3vh;
+}
+@media (max-width: 768px) {
+  .subscribe-btn {
+    width: 50%;
+    min-height: 70px;
+    font-size: 20px;
+  }
 }

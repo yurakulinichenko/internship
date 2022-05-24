@@ -17,6 +17,7 @@ body {
   header {
     flex-direction: column;
   }
+
   .types-hosting {
     flex-direction: column;
   }
@@ -43,12 +44,20 @@ body {
   body {
     max-width: none;
   }
+  .header-btn {
+    width: 80%;
+    min-height: 70px;
+  }
+  .types-hosting-btn {
+    width: 80%;
+    min-height: 70px;
+  }
 }
 
 /* header styles */
 header {
   background-color: var(--main-background-color);
-  padding: 0 100px 50px 100px;
+  padding: 0 50px 50px 50px;
   display: flex;
   justify-content: space-between;
   background-image: url("../images/photo1.png");
