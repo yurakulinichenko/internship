@@ -46,11 +46,6 @@ body {
   body {
     max-width: none;
   }
-
-  .types-hosting-btn {
-    width: 80%;
-    min-height: 70px;
-  }
 }
 
 /* header styles */
@@ -119,9 +114,15 @@ header {
   margin-top: 30px;
   font-size: 25px;
 }
+@media (max-width: 992px) {
+  .header-btn {
+    width: 50%;
+    min-height: 80px;
+  }
+}
 @media (max-width: 768px) {
   .header-btn {
     width: 80%;
-    min-height: 70px;
+    min-height: 80px;
   }
 }
