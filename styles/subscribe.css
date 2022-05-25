@@ -19,16 +19,16 @@
   height: 40px;
   background-color: var(--button-color);
   border: none;
+  font-size: 25px;
   color: rgb(255, 255, 255);
 }
 .subscribe-text {
   color: var(--accent);
-  font-size: 3vh;
+  /* font-size: 3vh; */
 }
 @media (max-width: 768px) {
   .subscribe-btn {
     width: 50%;
     min-height: 70px;
-    font-size: 20px;
   }
 }

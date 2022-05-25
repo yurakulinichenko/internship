@@ -1,7 +1,7 @@
 .activity {
   background-color: rgb(247, 244, 244);
   margin-top: 0;
-  height: 770px;
+  height: 700px;
   padding-top: 50px;
 }
 
@@ -49,14 +49,19 @@
 .activity-text-subsection {
   padding-right: 20px;
 }
+@media (max-width: 992px) {
+  .activity {
+    height: 950px;
+  }
+}
 @media (max-width: 768px) {
   .activity {
-    height: 920px;
+    height: 1100px;
   }
 }
 @media (max-width: 550px) {
   .activity {
-    height: 1000px;
+    height: 1320px;
   }
   .activity-text-section {
     flex-direction: column;
